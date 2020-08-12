@@ -17,9 +17,16 @@ library(tidyverse)
 
 <br />
 
+```{r prep, echo = TRUE}
+
 tidyverse::tidyverse_logo()
 
 path <- "/Users/inouejin/Rstudio_house/seminar_script/jgss2000_v20180809.csv"
+
+df = read_csv(path)
+
+
+```
 
 
 
