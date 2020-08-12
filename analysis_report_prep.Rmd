@@ -6,6 +6,7 @@ output: html_document
 ---
 
 ```{r setup, include=FALSE}
+
 knitr::opts_chunk$set(echo = TRUE)
 library(tidyverse)
 
@@ -16,7 +17,6 @@ library(tidyverse)
 # Short Report with Propensity Score and Inverse Probability Weighting
 
 <br />
-
 ```{r prep, echo = TRUE}
 
 tidyverse::tidyverse_logo()
@@ -27,6 +27,18 @@ df = read_csv(path)
 
 
 ```
+
+
+```{r prep2, echo = TRUE}
+
+df %>% glimpse()
+
+
+
+```
+
+
+
 
 
 
