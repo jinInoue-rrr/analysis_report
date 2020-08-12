@@ -9,7 +9,8 @@ output: html_document
 
 knitr::opts_chunk$set(echo = TRUE)
 library(tidyverse)
-
+library(naniar)
+library(stargazer)
 
 
 ```
@@ -32,6 +33,8 @@ df = read_csv(path)
 ```{r prep2, echo = TRUE}
 
 df %>% glimpse()
+
+
 
 
 
