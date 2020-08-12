@@ -1,0 +1,28 @@
+---
+title: "analysis_prep"
+author: "Jin Inoue"
+date: "8/12/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+
+
+
+```
+
+# Short Report with Propensity Score and Inverse Probability Weighting
+
+<br />
+
+tidyverse::tidyverse_logo()
+
+path <- "/Users/inouejin/Rstudio_house/seminar_script/jgss2000_v20180809.csv"
+
+
+
+
+
+
